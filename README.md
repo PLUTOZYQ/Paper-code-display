@@ -9,3 +9,7 @@ Code display for the paper "CRT Paillier Homomorphic Privacy Protection Scheme B
 
 ## 项目概述
 本项目实现了一种高效的车联网隐私保护方案，适用于车载自组织网络（VANET）中的车辆 - 基础设施通信场景。方案结合CRT优化的Paillier同态加密和BLS短签名技术，在保证数据隐私性的同时降低计算与通信开销。（具体内容可直接在谷歌学术搜索《CRT - Paillier Homomorphic Privacy Protection Scheme Based on BLS Signatures in Mobile Vehicular Networks》查看，目前IEEE xplore正在维护，暂无法提供链接。）
+
+## 代码简要描述
+1. **前提性测试**： 所谓前提性测试就是对我们用中国剩余定理优化后的Paillier加密算法进行测试，测试其是否还满足同态性。
+2. **性能测试**：其他三个就很好理解了，就是控制变量来对比我们方案与使用传统Paillier算法加密的方案的加密解密时间对比。
