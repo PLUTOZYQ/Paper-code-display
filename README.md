@@ -8,3 +8,5 @@ Code display for the paper "CRT Paillier Homomorphic Privacy Protection Scheme B
 ##### 5.
 
 
+## 项目概述
+##### 本项目实现了一种高效的车联网隐私保护方案，适用于车载自组织网络（VANET）中的车辆-基础设施通信场景。方案结合CRT优化的Paillier同态加密和BLS短签名技术，在保证数据隐私性的同时降低计算与通信开销。(具体内容可以直接谷歌学术搜索《CRT-Paillier Homomorphic Privacy Protection Scheme Based on BLS Signatures in Mobile Vehicular Networks》即可查看，目前IEEE xplore正在维护，便不放链接了)
